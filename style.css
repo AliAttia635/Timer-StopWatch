@@ -1,0 +1,74 @@
+.title {
+  color: white;
+  font-size: 22px;
+}
+
+.timerButton {
+  width: 80px;
+  height: 30px;
+  border: 3px solid;
+  border-radius: 12px;
+  margin: 4px;
+  color: white;
+  cursor: pointer;
+  font-family: consolas, monospace;
+}
+
+.settimerButton {
+  width: 90px;
+  height: 30px;
+  border: 3px solid;
+  border-radius: 12px;
+  color: rgb(160, 0, 0);
+  cursor: pointer;
+  font-family: consolas, monospace;
+}
+
+#timerInput {
+  width: 177px;
+  height: 10px;
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#timerDisplay,
+#stopwatchDisplay {
+  font-size: 75px;
+  color: #0a9100;
+  font-family: consolas, monospace;
+}
+
+#timerContainer,
+#stopwatchContainer {
+  text-align: center;
+  border: 3px solid;
+  border-radius: 25px;
+  background-color: #222222;
+  margin: 0% 25% 0% 25%;
+}
+
+#stopwatchContainer {
+  margin: 2% 25% 0% 25%;
+}
+
+
+#startTimerButton,
+#startStopwatchButton {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#pauseTimerButton,
+#pauseStopwatchButton {
+  background-color: #FF9800;
+  color: white;
+}
+
+#resetTimerButton,
+#resetStopwatchButton {
+  background-color: #F44336;
+  color: white;
+}

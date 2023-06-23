@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer and Stopwatch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="timerContainer">
+    <div class="title">Timer</div>
+    <div>
+      <input type="text" id="timerInput" placeholder="Enter duration in minutes">
+      <button id="setTimerButton" class="settimerButton">Set Timer</button>
+    </div>
+    <div id="timerDisplay">00:00:00</div>
+    <button id="startTimerButton" class="timerButton">Start</button>
+    <button id="pauseTimerButton" class="timerButton">Pause</button>
+    <button id="resetTimerButton" class="timerButton">Reset</button>
+  </div>
+  <div id="stopwatchContainer">
+    <div class="title">Stopwatch</div>
+    <div id="stopwatchDisplay">00:00:00</div>
+    <button id="startStopwatchButton" class="timerButton">Start</button>
+    <button id="pauseStopwatchButton" class="timerButton">Pause</button>
+    <button id="resetStopwatchButton" class="timerButton">Reset</button>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
